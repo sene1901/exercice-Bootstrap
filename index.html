@@ -15,29 +15,79 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playwrite+VN:wght@100..400&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white  shadow">
+        <div class="container">
           <a class="navbar-brand" href="#">
             <img src="Images/logo.png" alt="" style="width: 60px; height: 70px;"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mx-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
               </li>
             </ul>
-            <a href="#" class="btn btn-primary">Order Online</a>
+            <a href="#" class="btn btn-navbar">Order Online</a>
           </div>
         </div>
-      </nav>
+    </nav>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item   slide-1 bg-dark vh-100" data-bs-interval="10000">
+            <div class="container"  >
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <h6  class="text-white">Welcome to QRISRY</h6>
+                  <h1 class="display-1 text-white">Char-grilled and flovor-filled</h1>
+                  <a href="#" class="btn btn-navbar">Reservation</a>
+                </div>
+              </div>
+
+            </div>          
+        </div>
+        <div class="carousel-item  slide-2 text-center bg-dark vh-100" data-bs-interval="2000">
+          <div class="container  d-flex align-items-center justify-content-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h6 class="text-white">Welcome to QRISRY</h6>
+                <h1 class="display-1 text-white">Char-grilled and flovor-filled</h1>
+                <a href="#" class="btn btn-navbar">Reservation</a>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+
+
 
 
 
