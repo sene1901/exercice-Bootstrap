@@ -15,7 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playwrite+VN:wght@100..400&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white  shadow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white  fixed-top shadow">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="Images/logo.png" alt="" style="width: 60px; height: 70px;"></a>
@@ -24,7 +24,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
+              <li class="nav-item ">
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
@@ -52,24 +52,24 @@
     </nav>
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item   slide-1 bg-dark vh-100" data-bs-interval="10000">
-            <div class="container"  >
+        <div class="carousel-item  text-center  vh-100 slide-1 active" data-bs-interval="10000">
+            <div class="container  h-100 d-flex align-items-center justify-content-center">
               <div class="row justify-content-center">
                 <div class="col-lg-8">
                   <h6  class="text-white">Welcome to QRISRY</h6>
-                  <h1 class="display-1 text-white">Char-grilled and flovor-filled</h1>
+                  <h1 class="display-1 fw-bold text-white">Char-grilled and flovor-filled</h1>
                   <a href="#" class="btn btn-navbar">Reservation</a>
                 </div>
               </div>
 
             </div>          
         </div>
-        <div class="carousel-item  slide-2 text-center bg-dark vh-100" data-bs-interval="2000">
-          <div class="container  d-flex align-items-center justify-content-center">
+        <div class="carousel-item   text-center  slide-2  vh-100" data-bs-interval="2000">
+          <div class="container  h-100 d-flex align-items-center justify-content-center">
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <h6 class="text-white">Welcome to QRISRY</h6>
-                <h1 class="display-1 text-white">Char-grilled and flovor-filled</h1>
+                <h1 class="display-1  fw-bold text-white">Char-grilled and flovor-filled</h1>
                 <a href="#" class="btn btn-navbar">Reservation</a>
               </div>
             </div>
@@ -85,6 +85,61 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    <!-- About -->
+    <section class="about">
+      <div class="container">
+        <div class="row  justify-content-center align-items-center">
+          <div class="col-lg-5">
+            <img src="Images/gallery-1.jpg" alt="">
+          </div>
+           <div class="col-lg-5 py-3">
+            <h2>About us </h2>
+            <div class="divider my-4"></div>
+            <p>Lorem ipsum dolor sit amet
+               consectetur adipisicing elit.
+                Molestiae tenetur quos, 
+               mollitia possimus, soluta dolorem?</p>
+               <p>Lorem ipsum dolor sit amet
+                consectetur adipisicing elit.
+                 Molestiae tenetur quos, saepe
+                mollitia possimus, soluta dolorem?</p>
+               <a href="#" class="btn btn-navbar">Explore Menu</a>
+           </div> 
+        </div>
+      </div>
+
+    </section>
+    <!-- menu -->
+    <section id="menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h2>Eplore Our Menu</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga beatae repudiandae qui. Natus magni 
+              unde ratione, doloremque amet nihil quos?</p>
+
+          </div>
+        </div>
+      </div>
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">ALL</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Breakfast</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"></button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+      </div>
+
+
+    </section>
     
 
 
