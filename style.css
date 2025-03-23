@@ -39,7 +39,7 @@ a{
 }
  
     /* navlink */
-.nav-link:after{
+.link:after{
     content: ""; 
     display: block; 
     background-color:rgb(240, 129, 26);
@@ -48,7 +48,7 @@ a{
     transition: 0.5s;
 }
 
-.nav-link:hover:after{
+.link:hover:after{
     width: 100%;
 }
 
@@ -88,7 +88,7 @@ background-position: center;
 }
 img{
      width: 100%;
-     height: 500px;
+      /* height: 500px;  */
 }
  .divider{
     width: 60px;
@@ -107,4 +107,31 @@ img{
     max-width: 500px; 
     margin: 16px auto 0;
 }
+#menu .nav-link{
+    background-color: rgb(255, 255, 255);
+    margin-left: 8px;
+    /* margin-right: 8px;  */
+    color: black;
+    border-radius: 20px;
+    box-shadow: O, 0, 15px beige;
+
+} 
+#menu .nav-link.active{
+    background-color:orange ;
+    color: #FFF;
+
+}
+ .stars i{
+    color: #ffa500;
+}
+
+.shadow-on-hover{
+    transition: all 0.4s;
+}
+.shadow-on-hover:hover{
+    box-shadow: 0, 10px ,40px rgb(146, 39, 39);
+}
+
+
+
 
